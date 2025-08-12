@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asclepius | Plastic Surgeon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/images/Logo1.webp" type="image/svg+xml">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="/">
+                        <img src="assets/images/Logo1.webp" alt="Logo" width="180">
+                    </a>
+                </div>
+                <div class="header-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>(+1) 840 841 25 69</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>785 15h Street, Office 478, Berlin, De 81566 - Germany</span>
+                    </div>
+                </div>
+                <button class="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Procedures</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Before & After</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="btn-consultation">Free Consultation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('assets/images/hero-bg1.jpg')">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Expert Plastic Surgery with Natural Results</h1>
+                        <p class="subtitle">Board-certified plastic surgeon specializing in facial and body contouring procedures</p>
+                        <div class="hero-buttons">
+                            <a href="procedures.html" class="btn-primary">View Procedures</a>
+                            <a href="about.html" class="btn-secondary">CHANGE YOUR LIFE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('assets/images/hero-bg2.jpg')">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Personalized Care for Your Transformation</h1>
+                        <p class="subtitle">Compassionate approach to help you achieve your aesthetic goals</p>
+                        <div class="hero-buttons">
+                            <a href="contact.html" class="btn-primary">Free Consultation</a>
+                            <a href="gallery.html" class="btn-secondary">Before & After Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="slider-dots"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>CHANGE YOUR LIFE</h2>
+                <p class="section-subtitle">Board Certified Plastic Surgeon</p>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/doctor-profile.webp" alt="About Asclepius" class="doctor-img">
+                    <div class="experience-badge">
+                        <span class="years">20+</span>
+                        <span>Years of Experience</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Compassionate Care with Exceptional Results</h3>
+                    <p>Asclepius is a renowned plastic surgeon with over two decades of experience in cosmetic and reconstructive surgery. His meticulous attention to detail and artistic eye help patients achieve natural-looking results that enhance their unique beauty.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Board Certified</h4>
+                                <p>Certified by the American Board of Plastic Surgery</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Advanced Training</h4>
+                                <p>Fellowship-trained in aesthetic surgery techniques</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-hand-holding-heart"></i>
+                            <div>
+                                <h4>Personalized Approach</h4>
+                                <p>Customized treatment plans for each patient</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="about.html" class="btn-primary">Learn More About Asclepius</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Procedures Section -->
+    <section class="procedures-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Procedures</h2>
+                <p class="section-subtitle">Specialized Treatments for Natural Beauty</p>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="procedure-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="facial">Facial Procedures</button>
+                    <button class="tab-btn" data-tab="body">Body Contouring</button>
+                    <button class="tab-btn" data-tab="breast">Breast Procedures</button>
+                </div>
+                
+                <div class="tab-content active" id="facial">
+                    <div class="procedure-grid">
+                        <div class="procedure-card">
+                            <div class="procedure-img" style="background-image: url('assets/images/procedure-facelift.webp')"></div>
+                            <div class="procedure-info">
+                                <h3>Facelift</h3>
+                                <p>Restores a more youthful appearance by addressing sagging skin and deep creases.</p>
+                                <a href="procedures.html" class="btn-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="procedure-card">
+                            <div class="procedure-img" style="background-image: url('assets/images/procedure-rhinoplasty.webp')"></div>
+                            <div class="procedure-info">
+                                <h3>Rhinoplasty</h3>
+                                <p>Reshapes the nose to improve appearance and/or breathing function.</p>
+                                <a href="procedures.html" class="btn-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="procedure-card">
+                            <div class="procedure-img" style="background-image: url('assets/images/procedure-Lifting.jpg')"></div>
+                            <div class="procedure-info">
+                                <h3>Lifting</h3>
+                                <p>Reshapes the nose to improve appearance and/or breathing function.</p>
+                                <a href="procedures.html" class="btn-learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Other tab contents would go here -->
+            </div>
+            
+            <div class="text-center mt-40">
+                <a href="procedures.html" class="btn-primary">View All Procedures</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Flexible Pricing Plans</h2>
+                <p class="section-subtitle">Quality Care at Competitive Prices</p>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Basic Package</h3>
+                        <div class="price">$3,999</div>
+                        <p class="price-description">For minor cosmetic enhancements</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Consultation & Evaluation</li>
+                        <li><i class="fas fa-check"></i> Non-surgical Procedures</li>
+                        <li><i class="fas fa-check"></i> Local Anesthesia</li>
+                        <li><i class="fas fa-check"></i> 1 Follow-up Visit</li>
+                        <li><i class="fas fa-times"></i> Overnight Stay</li>
+                        <li><i class="fas fa-times"></i> Complex Procedures</li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Get Started</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Premium Package</h3>
+                        <div class="price">$6,999</div>
+                        <p class="price-description">Comprehensive aesthetic solutions</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full Consultation & Planning</li>
+                        <li><i class="fas fa-check"></i> Surgical Procedures</li>
+                        <li><i class="fas fa-check"></i> General Anesthesia</li>
+                        <li><i class="fas fa-check"></i> 3 Follow-up Visits</li>
+                        <li><i class="fas fa-check"></i> 1 Night Hospital Stay</li>
+                        <li><i class="fas fa-check"></i> Post-op Care Kit</li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Get Started</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>VIP Package</h3>
+                        <div class="price">$9,999+</div>
+                        <p class="price-description">Customized luxury experience</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Executive Consultation</li>
+                        <li><i class="fas fa-check"></i> Multiple Procedures</li>
+                        <li><i class="fas fa-check"></i> Private Recovery Suite</li>
+                        <li><i class="fas fa-check"></i> Unlimited Follow-ups</li>
+                        <li><i class="fas fa-check"></i> 3-5 Night Hospital Stay</li>
+                        <li><i class="fas fa-check"></i> Luxury Aftercare Package</li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Get Started</a>
+                </div>
+            </div>
+            
+            <div class="pricing-disclaimer">
+                <p><strong>Note:</strong> All prices are estimates. Final pricing will be determined during your consultation based on your specific needs and treatment plan. Financing options available.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Before & After Gallery</h2>
+                <p class="section-subtitle">Real Patient Results</p>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All Procedures</button>
+                <button class="filter-btn" data-filter="facelift">Facelift</button>
+                <button class="filter-btn" data-filter="rhinoplasty">Rhinoplasty</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="facelift">
+                    <img src="assets/images/before-after-1.jpg" alt="Facelift Before & After">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Facelift</h3>
+                            <p>Patient Age: 32</p>
+                            <button class="view-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="rhinoplasty">
+                    <img src="assets/images/before-after-2.jpg" alt="Rhinoplasty Before & After">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Rhinoplasty</h3>
+                            <p>Patient Age: 53</p>
+                            <button class="view-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="gallery-item" data-category="lifting">
+                    <img src="assets/images/before-after-3.jpg" alt="Rhinoplasty Before & After">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Rhinoplasty</h3>
+                            <p>Patient Age: 58</p>
+                            <button class="view-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-40">
+                <a href="gallery.html" class="btn-primary">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Patient Testimonials</h2>
+                <p class="section-subtitle">What Our Patients Say</p>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">Asclepius completely transformed my life with my rhinoplasty procedure. His attention to detail and caring approach made me feel comfortable throughout the entire process. The results are beyond what I imagined!</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial-client1.jpg" alt="Sarah J." class="author-img">
+                            <div class="author-info">
+                                <h4>Sarah J.</h4>
+                                <p>Rhinoplasty Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text"> Asclepius completely transformed my life with my rhinoplasty procedure. His attention to detail and caring approach made me feel comfortable throughout the entire process. The results are beyond what I imagined!</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial-client1.jpg" alt="Sarah J." class="author-img">
+                            <div class="author-info">
+                                <h4>Sarah J.</h4>
+                                <p>Rhinoplasty Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text"> Asclepius completely transformed my life with my rhinoplasty procedure. His attention to detail and caring approach made me feel comfortable throughout the entire process. The results are beyond what I imagined!</p>
+                        <div class="testimonial-author">
+                            <img src="assets/images/testimonial-client1.jpg" alt="Sarah J." class="author-img">
+                            <div class="author-info">
+                                <h4>Sarah J.</h4>
+                                <p>Rhinoplasty Patient</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots"></div>
+                <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Latest Articles</h2>
+                <p class="section-subtitle">Insights & Updates from Asclepius</p>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blog-post1.webp" alt="Post-Surgery Recovery Tips">
+                        <div class="blog-date">
+                            <span class="date-day">15</span>
+                            <span class="date-month">Jun</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-user"></i> Dr.Jhon</span>
+                            <span><i class="fas fa-tag"></i> Recovery</span>
+                        </div>
+                        <h3><a href="blog-single.html">Essential Post-Surgery Recovery Tips</a></h3>
+                        <p>Learn the best practices for optimal recovery after your plastic surgery procedure to ensure the best possible results.</p>
+                        <a href="blog-single.html" class="btn-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blog-post2.webp" alt="Rhinoplasty Trends">
+                        <div class="blog-date">
+                            <span class="date-day">02</span>
+                            <span class="date-month">Jul</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-user"></i> Dr. John</span>
+                            <span><i class="fas fa-tag"></i> Rhinoplasty</span>
+                        </div>
+                        <h3><a href="blog-single.html">2025 Rhinoplasty Trends: What's New</a></h3>
+                        <p>Discover the latest advancements in rhinoplasty techniques that provide more natural-looking results with less downtime.</p>
+                        <a href="blog-single.html" class="btn-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="assets/images/blog-post3.jpg" alt="Non-Surgical Options">
+                        <div class="blog-date">
+                            <span class="date-day">18</span>
+                            <span class="date-month">Jul</span>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-user"></i> Dr. John</span>
+                            <span><i class="fas fa-tag"></i> Non-Surgical</span>
+                        </div>
+                        <h3><a href="blog-single.html">Non-Surgical Facial Rejuvenation Options</a></h3>
+                        <p>Explore the most effective non-surgical treatments that can help you achieve a more youthful appearance without going under the knife.</p>
+                        <a href="blog-single.html" class="btn-read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="text-center mt-40">
+                <a href="blog.html" class="btn-primary">View All Articles</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Consultation CTA -->
+    <section class="consultation-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready for Your Transformation?</h2>
+                <p>Schedule a confidential consultation with Dr. John to discuss your aesthetic goals and develop a personalized treatment plan.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn-primary btn-large">Book a Consultation</a>
+                    <a href="tel:+15551234567" class="btn-secondary btn-large">
+                        <i class="fas fa-phone-alt"></i> Call Now: (+1) 840 841 25 69
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/Logo1.webp" alt="Asclepius" width="160">
+                    <p class="footer-about">Asclepius provides exceptional plastic surgery services with a focus on natural-looking results and patient safety.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="procedures.html">Procedures</a></li>
+                        <li><a href="gallery.html">Before & After</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Procedures</h3>
+                    <ul>
+                        <li><a href="procedures.html">Facelift</a></li>
+                        <li><a href="procedures.html">Rhinoplasty</a></li>
+                        <li><a href="procedures.html">Breast Augmentation</a></li>
+                        <li><a href="procedures.html">Tummy Tuck</a></li>
+                        <li><a href="procedures.html">Eyelid Surgery</a></li>
+                        <li><a href="procedures.html">Liposuction</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> 785 15h Street, Office 478, Berlin, De 81566 - Germany</li>
+                        <li><i class="fas fa-phone-alt"></i> (+1) 840 841 25 69</li>
+                        <li><i class="fas fa-envelope"></i> info@drasclepius.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 9.00 AM - 22.00 PM | Saturday: 9.00 AM – 20.00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Asclepius Plastic Surgery. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
